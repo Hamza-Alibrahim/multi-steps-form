@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #fafafa;
+  height: 100vh;
+  overflow: hidden;
+}
+
+div:focus-within::after{
+  border-bottom:2px solid #06b6d4 !important;
+}
+
+div:focus-within > label{
+  color: #06b6d4 !important;
+}
+
+li {
+  text-align: center !important;
+}
